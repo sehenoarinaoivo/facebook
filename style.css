@@ -1,0 +1,149 @@
+body {
+    width: 100%;
+    margin: auto;
+}
+section {
+    background-color: beige;
+    height: 200vh;
+}
+.row {
+    display: flex;
+}
+.col-lg-6 {
+    width: 50%;
+}
+.col-lg-6.facebook-principal {
+    margin-top: 177px;
+}
+.col-lg-6 span.facebook {
+    /* float: left; */
+    color: darkblue;
+    font-size: 40px;
+    color: darkblue;
+    font-size: 86px;
+}
+span.facebook {
+    font-family: 'Noto Sans Bengali Blk';
+}
+p.text-connect {
+    /* position: absolute; */
+    font-size: 30px;
+    margin-top: -43px;
+    margin-left: 74px;
+}
+.col-lg-4.formular {
+    background-color: white;
+    box-shadow: 2px 2px 20px black;
+    margin-bottom: 0px;
+    text-align: center;
+    /* float: right; */
+    height: 70vh;
+    width: 46%;
+    border-radius: 12px;
+    margin-top: 171px;
+    /* margin-right: 61px; */
+}
+#valeur {
+    color:red;
+    font-size: 30px;
+}
+form div.mail input {
+    height: 67px;
+    margin-top: 50px;
+    width: 344px;
+    border-radius: 9px;
+    border: 1px solid wheat;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: arial;
+    color: #322;
+}
+form div.mail input#email:hover{
+    border: 1px solid cyan;
+}
+form div.password input#pass:hover {
+    border: 1px solid cyan;
+}
+form div.password input {
+    height: 67px;
+    /* margin-top: -37px; */
+    width: 344px;
+    border-radius: 9px;
+    border: 1px solid wheat;
+    font-size: 20px;
+    color: #322;
+}
+form div.boutton-submit button {
+    height: 60px;
+    background-color: blue;
+    margin-top: 50px;
+    width: 344px;
+    border-radius: 9px;
+    border: 1px solid blue;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-family: 'system-ui';
+    font-size: 25px;
+}
+form div.boutton-submit button a{
+    text-decoration: none;
+    color: white;
+}
+form div.boutton-submit button:hover {
+    cursor: pointer;
+}
+.forgot a:hover {
+    text-decoration: underline;
+}
+.forgot a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(15, 15, 189);
+}
+.spacement {
+    width: 397px;
+    align-content: center;
+    margin-left: 95px;
+    margin-top: 36px;
+}
+.creat-account button {
+    margin-top: -18px;
+    border: 1px solid green;
+    background-color: green;
+    height: 50px;
+    width: 259px;
+    border-radius: 12px;
+    font-size: 15px;
+    color: white;
+}
+aside {
+    background-color: bisque;
+    height: 8vh;
+    margin-top: -16px;
+}
+aside ul,footer ul {
+    display: flex;
+}
+aside ul li {
+    list-style: none;
+    margin-left: 12px;
+}
+aside ul li a:hover,footer.mode-to-do ul li a:hover {
+    text-decoration: underline;
+}
+footer ul li {
+    list-style: none;
+    margin-left: 10px;
+    overflow-wrap: auto ;
+}
+aside ul li a,footer.mode-to-do ul li a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+}
+div.copy-right p {
+    margin-left: 50px;
+}
+
+
+
